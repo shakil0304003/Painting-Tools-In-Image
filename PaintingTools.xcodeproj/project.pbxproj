@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE9D947B1547D19800488BCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D947A1547D19800488BCE /* UIKit.framework */; };
+		CE9D947D1547D19800488BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D947C1547D19800488BCE /* Foundation.framework */; };
+		CE9D947F1547D19800488BCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D947E1547D19800488BCE /* CoreGraphics.framework */; };
+		CE9D94851547D19800488BCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE9D94831547D19800488BCE /* InfoPlist.strings */; };
+		CE9D94871547D19800488BCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D94861547D19800488BCE /* main.m */; };
+		CE9D948B1547D19800488BCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D948A1547D19800488BCE /* AppDelegate.m */; };
+		CE9D948E1547D19800488BCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D948D1547D19800488BCE /* ViewController.m */; };
+		CE9D94911547D19800488BCE /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9D948F1547D19800488BCE /* ViewController_iPhone.xib */; };
+		CE9D94941547D19900488BCE /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9D94921547D19900488BCE /* ViewController_iPad.xib */; };
+		CE9D94A21547D31100488BCE /* ImageEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D94A01547D31100488BCE /* ImageEditViewController.m */; };
+		CE9D94A31547D31100488BCE /* ImageEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9D94A11547D31100488BCE /* ImageEditViewController.xib */; };
+		CE9D94B21547D34A00488BCE /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D94A71547D34A00488BCE /* HRBrightnessCursor.m */; };
+		CE9D94B31547D34A00488BCE /* HRCgUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D94A91547D34A00488BCE /* HRCgUtil.m */; };
+		CE9D94B41547D34A00488BCE /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D94AB1547D34A00488BCE /* HRColorCursor.m */; };
+		CE9D94B51547D34A00488BCE /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D94AD1547D34A00488BCE /* HRColorPickerView.m */; };
+		CE9D94B61547D34A00488BCE /* HRColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D94AF1547D34A00488BCE /* HRColorPickerViewController.m */; };
+		CE9D94B71547D34A00488BCE /* HRColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D94B11547D34A00488BCE /* HRColorUtil.m */; };
+		CE9D94BB1547D37900488BCE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D94BA1547D37900488BCE /* MBProgressHUD.m */; };
+		CE9D94BE1547D3EC00488BCE /* CurvesPointsConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D94BD1547D3EC00488BCE /* CurvesPointsConverter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE9D94761547D19800488BCE /* PaintingTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintingTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9D947A1547D19800488BCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE9D947C1547D19800488BCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE9D947E1547D19800488BCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE9D94821547D19800488BCE /* PaintingTools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaintingTools-Info.plist"; sourceTree = "<group>"; };
+		CE9D94841547D19800488BCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE9D94861547D19800488BCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE9D94881547D19800488BCE /* PaintingTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaintingTools-Prefix.pch"; sourceTree = "<group>"; };
+		CE9D94891547D19800488BCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE9D948A1547D19800488BCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE9D948C1547D19800488BCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE9D948D1547D19800488BCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE9D94901547D19800488BCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		CE9D94931547D19900488BCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		CE9D949F1547D31100488BCE /* ImageEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageEditViewController.h; sourceTree = "<group>"; };
+		CE9D94A01547D31100488BCE /* ImageEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageEditViewController.m; sourceTree = "<group>"; };
+		CE9D94A11547D31100488BCE /* ImageEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageEditViewController.xib; sourceTree = "<group>"; };
+		CE9D94A61547D34A00488BCE /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
+		CE9D94A71547D34A00488BCE /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
+		CE9D94A81547D34A00488BCE /* HRCgUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCgUtil.h; sourceTree = "<group>"; };
+		CE9D94A91547D34A00488BCE /* HRCgUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRCgUtil.m; sourceTree = "<group>"; };
+		CE9D94AA1547D34A00488BCE /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
+		CE9D94AB1547D34A00488BCE /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
+		CE9D94AC1547D34A00488BCE /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
+		CE9D94AD1547D34A00488BCE /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
+		CE9D94AE1547D34A00488BCE /* HRColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerViewController.h; sourceTree = "<group>"; };
+		CE9D94AF1547D34A00488BCE /* HRColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerViewController.m; sourceTree = "<group>"; };
+		CE9D94B01547D34A00488BCE /* HRColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorUtil.h; sourceTree = "<group>"; };
+		CE9D94B11547D34A00488BCE /* HRColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorUtil.m; sourceTree = "<group>"; };
+		CE9D94B91547D37900488BCE /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CE9D94BA1547D37900488BCE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CE9D94BC1547D3EC00488BCE /* CurvesPointsConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurvesPointsConverter.h; sourceTree = "<group>"; };
+		CE9D94BD1547D3EC00488BCE /* CurvesPointsConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurvesPointsConverter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9D94731547D19800488BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9D947B1547D19800488BCE /* UIKit.framework in Frameworks */,
+				CE9D947D1547D19800488BCE /* Foundation.framework in Frameworks */,
+				CE9D947F1547D19800488BCE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE9D946B1547D19800488BCE = {
+			isa = PBXGroup;
+			children = (
+				CE9D94B81547D37900488BCE /* MBProgressHUD */,
+				CE9D94A51547D34A00488BCE /* ColorPicker */,
+				CE9D949E1547D31100488BCE /* ImageEditor */,
+				CE9D94801547D19800488BCE /* PaintingTools */,
+				CE9D94791547D19800488BCE /* Frameworks */,
+				CE9D94771547D19800488BCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9D94771547D19800488BCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D94761547D19800488BCE /* PaintingTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9D94791547D19800488BCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D947A1547D19800488BCE /* UIKit.framework */,
+				CE9D947C1547D19800488BCE /* Foundation.framework */,
+				CE9D947E1547D19800488BCE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE9D94801547D19800488BCE /* PaintingTools */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D94891547D19800488BCE /* AppDelegate.h */,
+				CE9D948A1547D19800488BCE /* AppDelegate.m */,
+				CE9D948C1547D19800488BCE /* ViewController.h */,
+				CE9D948D1547D19800488BCE /* ViewController.m */,
+				CE9D948F1547D19800488BCE /* ViewController_iPhone.xib */,
+				CE9D94921547D19900488BCE /* ViewController_iPad.xib */,
+				CE9D94811547D19800488BCE /* Supporting Files */,
+			);
+			path = PaintingTools;
+			sourceTree = "<group>";
+		};
+		CE9D94811547D19800488BCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D94821547D19800488BCE /* PaintingTools-Info.plist */,
+				CE9D94831547D19800488BCE /* InfoPlist.strings */,
+				CE9D94861547D19800488BCE /* main.m */,
+				CE9D94881547D19800488BCE /* PaintingTools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE9D949E1547D31100488BCE /* ImageEditor */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D94BC1547D3EC00488BCE /* CurvesPointsConverter.h */,
+				CE9D94BD1547D3EC00488BCE /* CurvesPointsConverter.m */,
+				CE9D949F1547D31100488BCE /* ImageEditViewController.h */,
+				CE9D94A01547D31100488BCE /* ImageEditViewController.m */,
+				CE9D94A11547D31100488BCE /* ImageEditViewController.xib */,
+			);
+			path = ImageEditor;
+			sourceTree = "<group>";
+		};
+		CE9D94A51547D34A00488BCE /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D94A61547D34A00488BCE /* HRBrightnessCursor.h */,
+				CE9D94A71547D34A00488BCE /* HRBrightnessCursor.m */,
+				CE9D94A81547D34A00488BCE /* HRCgUtil.h */,
+				CE9D94A91547D34A00488BCE /* HRCgUtil.m */,
+				CE9D94AA1547D34A00488BCE /* HRColorCursor.h */,
+				CE9D94AB1547D34A00488BCE /* HRColorCursor.m */,
+				CE9D94AC1547D34A00488BCE /* HRColorPickerView.h */,
+				CE9D94AD1547D34A00488BCE /* HRColorPickerView.m */,
+				CE9D94AE1547D34A00488BCE /* HRColorPickerViewController.h */,
+				CE9D94AF1547D34A00488BCE /* HRColorPickerViewController.m */,
+				CE9D94B01547D34A00488BCE /* HRColorUtil.h */,
+				CE9D94B11547D34A00488BCE /* HRColorUtil.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		CE9D94B81547D37900488BCE /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D94B91547D37900488BCE /* MBProgressHUD.h */,
+				CE9D94BA1547D37900488BCE /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9D94751547D19800488BCE /* PaintingTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9D94971547D19900488BCE /* Build configuration list for PBXNativeTarget "PaintingTools" */;
+			buildPhases = (
+				CE9D94721547D19800488BCE /* Sources */,
+				CE9D94731547D19800488BCE /* Frameworks */,
+				CE9D94741547D19800488BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintingTools;
+			productName = PaintingTools;
+			productReference = CE9D94761547D19800488BCE /* PaintingTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9D946D1547D19800488BCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE9D94701547D19800488BCE /* Build configuration list for PBXProject "PaintingTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE9D946B1547D19800488BCE;
+			productRefGroup = CE9D94771547D19800488BCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9D94751547D19800488BCE /* PaintingTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9D94741547D19800488BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9D94851547D19800488BCE /* InfoPlist.strings in Resources */,
+				CE9D94911547D19800488BCE /* ViewController_iPhone.xib in Resources */,
+				CE9D94941547D19900488BCE /* ViewController_iPad.xib in Resources */,
+				CE9D94A31547D31100488BCE /* ImageEditViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9D94721547D19800488BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9D94871547D19800488BCE /* main.m in Sources */,
+				CE9D948B1547D19800488BCE /* AppDelegate.m in Sources */,
+				CE9D948E1547D19800488BCE /* ViewController.m in Sources */,
+				CE9D94A21547D31100488BCE /* ImageEditViewController.m in Sources */,
+				CE9D94B21547D34A00488BCE /* HRBrightnessCursor.m in Sources */,
+				CE9D94B31547D34A00488BCE /* HRCgUtil.m in Sources */,
+				CE9D94B41547D34A00488BCE /* HRColorCursor.m in Sources */,
+				CE9D94B51547D34A00488BCE /* HRColorPickerView.m in Sources */,
+				CE9D94B61547D34A00488BCE /* HRColorPickerViewController.m in Sources */,
+				CE9D94B71547D34A00488BCE /* HRColorUtil.m in Sources */,
+				CE9D94BB1547D37900488BCE /* MBProgressHUD.m in Sources */,
+				CE9D94BE1547D3EC00488BCE /* CurvesPointsConverter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE9D94831547D19800488BCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9D94841547D19800488BCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE9D948F1547D19800488BCE /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9D94901547D19800488BCE /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CE9D94921547D19900488BCE /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9D94931547D19900488BCE /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE9D94951547D19900488BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE9D94961547D19900488BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE9D94981547D19900488BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaintingTools/PaintingTools-Prefix.pch";
+				INFOPLIST_FILE = "PaintingTools/PaintingTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE9D94991547D19900488BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaintingTools/PaintingTools-Prefix.pch";
+				INFOPLIST_FILE = "PaintingTools/PaintingTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9D94701547D19800488BCE /* Build configuration list for PBXProject "PaintingTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9D94951547D19900488BCE /* Debug */,
+				CE9D94961547D19900488BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9D94971547D19900488BCE /* Build configuration list for PBXNativeTarget "PaintingTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9D94981547D19900488BCE /* Debug */,
+				CE9D94991547D19900488BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE9D946D1547D19800488BCE /* Project object */;
+}
